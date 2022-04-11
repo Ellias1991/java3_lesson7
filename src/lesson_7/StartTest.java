@@ -37,14 +37,14 @@ public class StartTest {
 
             }
         }
-        for(Method m:methods){
-           try{
-               m.invoke(null);
-           } catch (InvocationTargetException e) {
-               e.printStackTrace();
-           } catch (IllegalAccessException e) {
-               e.printStackTrace();
-           }
+        for (Method m : methods) {
+            try {
+                m.invoke(null);
+            } catch (InvocationTargetException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
