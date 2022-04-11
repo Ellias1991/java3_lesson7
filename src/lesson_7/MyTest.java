@@ -26,6 +26,7 @@ public class MyTest {
     public static void test9() {
         System.out.println("test9 priority = 4");
     }
+
     @AfterSuite
     public static void test5() {
         System.out.println("test5 AfterSuite");
